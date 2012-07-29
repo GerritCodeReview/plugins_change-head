@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAH33//+24\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "I prefer plugins to package as com.googlesource.gerrit.plugins.changehead;",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2U\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "Consider writing a small documentation page for this file? See the replication plugin for an example:\n\nhttps://gerrit.googlesource.com/plugins/replication/+/master/src/main/resources/Documentation/cmd-start.md",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2s\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "You should close this repository when you are done. Wrap it in a try/finally to ensure it always closes.",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2o\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "(optional): style nit we write \"if (!project.isOwner()) {\"",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2k\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "(optional): style nit, no space after (",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2g\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "Failures can be handled by throw new UnloggedFailure(1, \"branch \" + newHeadBranch + \" does not exist\");\n\nThe base server code will catch this, log the error on stderr, and make the SSH client exit with a non-zero exit status.",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2c\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "IIRC you need to pass a boolean here of either true or false after the HEAD name to correctly ensure JGit doesn\u0027t deref the HEAD to its current target first before doing the update. You need to look at the docs, I can\u0027t remember what the correct calling convention is.",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAH33//+2Y\u003d",
+        "filename": "src/main/java/com/google/gerrit/plugins/ChangeHeadCommand.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1001240
+      },
+      "writtenOn": "2012-07-29T05:13:28Z",
+      "side": 1,
+      "message": "IIRC this can fail and return an error result, without throwing an exception. Making your next print inaccurate. You should verify the result of the link method, or re-read HEAD to make sure it points at what you think it should point at.",
+      "revId": "717e99a5349b56eb603105d091e50bf79abb4e64",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
