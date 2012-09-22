@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAJW3///7w\u003d",
+        "filename": "src/main/java/com/googlesource/gerrit/plugins/changehead/ChangeHeadCommand.java",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1011547
+      },
+      "writtenOn": "2012-09-22T20:20:04Z",
+      "side": 1,
+      "message": "Missing the branch name.",
+      "revId": "724e757481181b272875fc95f18e7cc9f6c87efd",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    }
+  ]
+}
